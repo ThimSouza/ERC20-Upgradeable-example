@@ -1,6 +1,9 @@
 import { ethers } from "hardhat";
 
 async function main() {
+  const [deployer] = await ethers.getSigners();
+
+  console.log("Deploying contracts with the account:", deployer.address);
 
   const Token = await ethers.getContractFactory("SimpleTokenUpgradeable");
   const token = await Token.deploy();
