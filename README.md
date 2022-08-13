@@ -15,4 +15,4 @@ npx hardhat test
 ```
 
 ## Networks and deployments
-This contract is deployed into Kovan testnet, wanna see? [Click Here](Token address).
+This contract is deployed into Kovan testnet, wanna see? [Click Here](https://kovan.etherscan.io/address/0x337dfc6929bb5089ea5e805c2f8a95f371ef24e0).
